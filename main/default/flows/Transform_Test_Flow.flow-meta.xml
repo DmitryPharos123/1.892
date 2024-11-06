@@ -129,12 +129,14 @@
         </inputAssignments>
         <inputAssignments>
             <field>Name</field>
+            <value>
+                <stringValue>Test</stringValue>
+            </value>
         </inputAssignments>
         <inputAssignments>
             <field>StageName</field>
         </inputAssignments>
         <object>Opportunity</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordCreates>
     <recordDeletes>
         <description>Description TEst 6</description>

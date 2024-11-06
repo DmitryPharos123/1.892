@@ -11,6 +11,10 @@
             <assignToReference>AccData</assignToReference>
             <operator>Assign</operator>
         </assignmentItems>
+        <assignmentItems>
+            <assignToReference>TestV2</assignToReference>
+            <operator>Assign</operator>
+        </assignmentItems>
         <connector>
             <targetReference>Test_Transform</targetReference>
         </connector>
@@ -250,6 +254,14 @@
         <isCollection>true</isCollection>
         <isInput>false</isInput>
         <isOutput>false</isOutput>
+        <objectType>Account</objectType>
+    </variables>
+    <variables>
+        <name>TestV2</name>
+        <dataType>SObject</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
         <objectType>Account</objectType>
     </variables>
 </Flow>
